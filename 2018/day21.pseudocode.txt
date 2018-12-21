@@ -1,0 +1,18 @@
+r5 = 0
+do
+      r4 = r5 | 0x10000
+      r5 = 0xCAB363
+
+      do
+            r3 = r4 & 0xFF
+            5 = r5 + r3
+            r5 = r5 & 0xFFFFFF
+            r5 = r5 * 0x1016B
+            r5 = r5 & 0xFFFFFF
+
+            r4 = r4 // 256
+      while (r4 > 0)
+
+while (r5 !== r0)
+
+
